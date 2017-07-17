@@ -2,6 +2,10 @@ using Toybox.Application as App;
 
 class DualArcApp extends App.AppBase {
 
+	function initialize() {
+        AppBase.initialize();
+    }
+
     //! onStart() is called on application start up
     function onStart() {
     }
